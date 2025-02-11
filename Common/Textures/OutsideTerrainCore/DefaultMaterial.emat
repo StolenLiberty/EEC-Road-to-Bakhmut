@@ -1,0 +1,3 @@
+MatCommon : "{FCDCBAF69074F24C}Common/Textures/OutsideTerrainCore/DefaultMaterial.emat" {
+ AlbedoMap "{AC8232C43EAC1A86}Terrains/Common/Surfaces/Data/Grass_01_Middle_BCR.edds"
+}

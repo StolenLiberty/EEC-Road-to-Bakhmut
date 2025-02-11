@@ -1,0 +1,22 @@
+GameProject {
+ ID "EECRoadtoBakhmut"
+ GUID "632EFC322C32CEB6"
+ TITLE "EEC Road to Bakhmut"
+ Dependencies {
+  "630C5E90EAFE5902" "58D0FB3206B6F859" "63305B18273159B0"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}
