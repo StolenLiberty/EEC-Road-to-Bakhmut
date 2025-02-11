@@ -1,0 +1,53 @@
+$grp GenericEntity {
+ Zaitseve {
+  components {
+   SCR_EditableCommentComponent "{632B0D18F3A7D22A}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{632B0D1B1F80A6D5}" {
+     Name "Zaitseve"
+    }
+    m_bAutoRegister ALWAYS
+    m_Flags 6200
+   }
+   SCR_MapDescriptorComponent "{632B0D18FB3DE16A}" {
+    DisplayName "Zaitseve"
+    MainType "Name City"
+   }
+  }
+  coords 4405.365 99.369 8190.894
+ }
+ Kodema {
+  components {
+   SCR_EditableCommentComponent "{632B0D18F3A7D22A}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{632B0D1B1F80A6D5}" {
+     Name "Kodema"
+    }
+    m_bAutoRegister ALWAYS
+    m_Flags 6200
+   }
+   SCR_MapDescriptorComponent "{632B0D18FB3DE16A}" {
+    DisplayName "Kodema"
+    MainType "Name City"
+   }
+  }
+  coords 5143.049 99.369 2531.603
+ }
+ Road_Of_Life {
+  components {
+   SCR_EditableCommentComponent "{632B0D18F3A7D22A}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{632B0D1B1F80A6D5}" {
+     Name "Road Of Life"
+    }
+    m_bAutoRegister ALWAYS
+    m_Flags 6200
+   }
+   SCR_MapDescriptorComponent "{632B0D18FB3DE16A}" {
+    DisplayName "Road Of Life"
+    MainType "Name City"
+   }
+  }
+  coords 819.263 125.328 6038.022
+ }
+}

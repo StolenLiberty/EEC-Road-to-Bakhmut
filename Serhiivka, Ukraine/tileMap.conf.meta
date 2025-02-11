@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{43A0948AC962480B}Serhiivka, Ukraine/tileMap.conf"
+ Configurations {
+  CONFResourceClass PC {
+   Present 0
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
