@@ -1,0 +1,483 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ BlackCrossMOB {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_bIsSupplyHub 1
+    m_sBaseName "Baza Chornyi Khrest \"Black Cross Base\""
+    m_sBaseNameUpper "Baza Chornyi Khrest \"Black Cross Base\""
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 1000
+    m_iSuppliesMax 10000
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_ResourceComponent "{5D587B89D3599C99}" {
+    m_aGenerators {
+     SCR_ResourceGenerator "{5D587B8946012988}" {
+      m_fResourceMultiplier 3
+      m_fStorageRange 300
+     }
+    }
+   }
+  }
+  coords 5139.791 137.592 152.025
+  angleY -5.791
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+      m_bPickRandomGroupType 1
+     }
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ IronShieldMOB {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_bIsSupplyHub 1
+    m_sBaseName "Baza Zaliznyi Shchyt \"Iron Shield Base\""
+    m_sBaseNameUpper "Baza Zaliznyi Shchyt \"Iron Shield Base\""
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3900
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_ResourceComponent "{5D587B89D3599C99}" {
+    m_aGenerators {
+     SCR_ResourceGenerator "{5D587B8946012988}" {
+      m_fResourceMultiplier 3
+      m_fStorageRange 300
+     }
+    }
+   }
+  }
+  coords 4476.156 103.348 10101.261
+  angleY 177.027
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+      m_bPickRandomGroupType 1
+     }
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+      m_bPickRandomGroupType 1
+     }
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ SouthernFrontier {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Pivdennyi Rubizh \"Southern Frontier\""
+    m_sBaseNameUpper "Pivdennyi Rubizh \"Southern Frontier\""
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSuppliesMax 10000
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2900
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_ResourceComponent "{5D587B89D3599C99}" {
+    m_eDebugVisualizationFlags CONSUMER
+   }
+  }
+  coords 5201.021 133.423 4505.262
+  angleY 84.209
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+   }
+  }
+ }
+ KodemaFront {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bCanBeHQ 0
+    m_sBaseName "Frontova Liniia Kodemy \"Kodema Frontline\""
+    m_sBaseNameUpper "Frontova Liniia Kodemy \"Kodema Frontline\""
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 1
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSuppliesMax 10000
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2900
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_ResourceComponent "{5D587B89D3599C99}" {
+    m_eDebugVisualizationFlags CONSUMER
+   }
+  }
+  coords 5369.385 70.781 2353.981
+  angleY -65.791
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+   }
+  }
+ }
+ BlackForest {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bCanBeHQ 0
+    m_sBaseName "Chornyi Lis \"Black Forest\""
+    m_sBaseNameUpper "Chornyi Lis \"Black Forest\""
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 1
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSuppliesMax 10000
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2900
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_ResourceComponent "{5D587B89D3599C99}" {
+    m_aGenerators {
+     SCR_ResourceGenerator "{5D587B8946012988}" {
+      m_fResourceMultiplier 0
+     }
+    }
+    m_eDebugVisualizationFlags CONSUMER
+   }
+  }
+  coords 3111.068 103.627 5766.547
+  angleY -170.791
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_bPickRandomGroupType 1
+     }
+    }
+   }
+  }
+ }
+ Height215Base {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 0
+    m_sBaseName "Baza Vysota 215 \"Height 215 Base\""
+    m_sBaseNameUpper "Baza Vysota 215 \"Height 215 Base\""
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2900
+     }
+    }
+   }
+  }
+  coords 4976.866 106.813 6429.829
+  angleY -5.791
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_bPickRandomGroupType 1
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_bPickRandomGroupType 1
+     }
+    }
+   }
+  }
+ }
+ RoadOfLife {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Doroha Zhyttia \"Road of Life\""
+    m_sBaseNameUpper "Doroha Zhyttia \"Road of Life\""
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSuppliesMax 10000
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3300
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_ResourceComponent "{5D587B89D3599C99}" {
+    m_eDebugVisualizationFlags CONSUMER
+   }
+  }
+  coords 743.915 93.943 6232.239
+  angleY -5.791
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+   }
+  }
+ }
+ WheatField {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Pshenychnе Pole \"Wheat Field\""
+    m_sBaseNameUpper "Pshenychnе Pole \"Wheat Field\""
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSuppliesMax 10000
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2900
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_ResourceComponent "{5D587B89D3599C99}" {
+    m_eDebugVisualizationFlags CONSUMER
+   }
+  }
+  coords 7314.038 143.476 5141.484
+  angleY 159.209
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+   }
+  }
+ }
+ ZaitseveFrontline {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Frontova Liniia Zaitsevoho \"Zaitseve Frontline\""
+    m_sBaseNameUpper "Frontova Liniia Zaitsevoho \"Zaitseve Frontline\""
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSuppliesMax 10000
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2900
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_ResourceComponent "{5D587B89D3599C99}" {
+    m_eDebugVisualizationFlags CONSUMER
+   }
+  }
+  coords 4569.535 63.803 8093.99
+  angleY -5.791
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+   }
+  }
+ }
+ StalevyiZavodSteelPlant {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bCanBeHQ 0
+    m_sBaseName "Stalevyi Zavod \"Steel Plant\""
+    m_sBaseNameUpper "Stalevyi Zavod \"Steel Plant\""
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 1
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSuppliesMax 10000
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3700
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_ResourceComponent "{5D587B89D3599C99}" {
+    m_aGenerators {
+     SCR_ResourceGenerator "{5D587B8946012988}" {
+      m_fResourceMultiplier 0
+     }
+    }
+    m_eDebugVisualizationFlags CONSUMER
+   }
+  }
+  coords 1009.811 17.937 9306.188
+  angleY 169.718
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_bPickRandomGroupType 1
+     }
+    }
+   }
+  }
+ }
+ TykhaDolynaQuietValley {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bCanBeHQ 0
+    m_sBaseName "Tykha Dolyna \"Quiet Valley\""
+    m_sBaseNameUpper "Tykha Dolyna \"Quiet Valley\""
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 1
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSuppliesMax 10000
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5100
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_ResourceComponent "{5D587B89D3599C99}" {
+    m_aGenerators {
+     SCR_ResourceGenerator "{5D587B8946012988}" {
+      m_fResourceMultiplier 0
+     }
+    }
+    m_eDebugVisualizationFlags CONSUMER
+   }
+  }
+  coords 1770.902 33.083 3682.868
+  angleY 95.342
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_bPickRandomGroupType 1
+     }
+    }
+   }
+  }
+ }
+}
