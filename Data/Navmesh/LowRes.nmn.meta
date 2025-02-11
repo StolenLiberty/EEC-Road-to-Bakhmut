@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CD426BEA77E540C9}Data/Navmesh/LowRes.nmn"
+ Configurations {
+  NavMeshResourceClass PC {
+  }
+  NavMeshResourceClass XBOX_ONE : PC {
+  }
+  NavMeshResourceClass XBOX_SERIES : PC {
+  }
+  NavMeshResourceClass PS4 : PC {
+  }
+  NavMeshResourceClass PS5 : PC {
+  }
+  NavMeshResourceClass HEADLESS : PC {
+  }
+ }
+}
