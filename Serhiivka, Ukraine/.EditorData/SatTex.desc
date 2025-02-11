@@ -1,0 +1,7 @@
+SatGenDescClass {
+ FileName "D:/Files/Tristens files/Eastern European Front, Bukmut/Map/Sat Map/SatMap_Out4Craters.png"
+ sRGBOutput 0
+ RenderRoads 1
+ Interpolation bilinear
+ RoadsAA "8x"
+}

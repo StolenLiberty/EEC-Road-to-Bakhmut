@@ -1,0 +1,7 @@
+HeightMapImportDescClass {
+ FileName "D:/Files/Tristens files/Eastern European Front, Bukmut/Map/Height Map/Combine_Out.png"
+ Flags 5
+ MinHeight -1000000
+ ResampleMinHeight -1
+ ResampleMaxHeight 200
+}
